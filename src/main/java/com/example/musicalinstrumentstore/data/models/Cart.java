@@ -1,4 +1,4 @@
-package com.example.musicalinstrumentstore.models.data;
+package com.example.musicalinstrumentstore.data.models;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

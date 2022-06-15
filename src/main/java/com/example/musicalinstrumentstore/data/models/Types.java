@@ -1,4 +1,4 @@
-package com.example.musicalinstrumentstore.models.data;
+package com.example.musicalinstrumentstore.data.models;
 
 public class Types {
 

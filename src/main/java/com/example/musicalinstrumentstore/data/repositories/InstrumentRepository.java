@@ -1,6 +1,6 @@
-package com.example.musicalinstrumentstore.models.repositories;
+package com.example.musicalinstrumentstore.data.repositories;
 
-import com.example.musicalinstrumentstore.models.data.Instrument;
+import com.example.musicalinstrumentstore.data.models.Instrument;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

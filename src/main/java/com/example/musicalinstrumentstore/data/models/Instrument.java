@@ -1,4 +1,4 @@
-package com.example.musicalinstrumentstore.models.data;
+package com.example.musicalinstrumentstore.data.models;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
@@ -8,13 +8,13 @@ import java.math.BigDecimal;
 
 @Data
 @Document
-public class Book {
+public class Instrument {
     @Id
     private String id;
     private String name;
-    private String imageId;
     private Long quantityAvailable;
     private String shortDescription;
-    private Types.BookType bookType;
+    private String imageId;
     private BigDecimal price;
+    private Types.InstrumentCategory instrumentCategory;
 }
