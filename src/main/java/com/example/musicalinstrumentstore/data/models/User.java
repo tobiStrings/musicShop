@@ -14,4 +14,5 @@ public class User {
     private String password;
     private Types.Role userRole;
     private Cart userCart;
+    private boolean isEnabled;
 }
